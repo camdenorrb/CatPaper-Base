@@ -1,0 +1,15 @@
+kind: pipeline
+type: docker
+name: default
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+
+  - name: test
+    image: openjdk:20-bullseye
+    commands:
+      - ./gradlew applyPatches
+      - ./gradlew check
