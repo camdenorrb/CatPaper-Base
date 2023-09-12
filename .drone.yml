@@ -9,7 +9,7 @@ platform:
 steps:
 
   - name: test
-    image: openjdk:20-bullseye
+    image: openjdk:22-bullseye
     commands:
       - ./gradlew applyPatches
       - ./gradlew check
