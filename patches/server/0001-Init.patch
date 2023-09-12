@@ -17,7 +17,7 @@ index fb98936bb8a5488db75d676c5bcb4060597fbbf8..618773f38ac006a9a2d84cee76070790
 +    
 +    // CatPaper start
 +    implementation(project(":catpaper-api"))
-+    implementation("io.papermc.paper:paper-mojangapi:1.19.2-R0.1-SNAPSHOT") {
++    implementation("io.papermc.paper:paper-mojangapi:1.20.1-R0.1-SNAPSHOT") {
 +        exclude("io.papermc.paper", "paper-api")
 +    }
 +    // CatPaper end
